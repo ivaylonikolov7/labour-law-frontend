@@ -164,7 +164,7 @@ export default function App() {
 
         <Box
           component="img"
-          src="pencho.png"
+          src="/pencho.png"
           alt="Пенчо"
           sx={{ width: "100%", maxWidth: 700, display: "block" }}
         />
