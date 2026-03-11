@@ -63,7 +63,7 @@ export default function App() {
     setInput("");
     setLoading(true);
     try {
-      const res = await fetch("/ask", {
+      const res = await fetch(`${import.meta.env.VITE_API_BASE ?? ""}/ask`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question, persona }),
