@@ -357,7 +357,7 @@ export default function App() {
                         color="text.secondary"
                         fontStyle="italic"
                       >
-                        Пенчо се оплаква...
+                        Пенчо мисли...
                       </Typography>
                     </Box>
                   </Paper>
